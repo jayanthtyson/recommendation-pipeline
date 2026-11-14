@@ -1,0 +1,31 @@
+DATA VALIDATION REPORT
+==================================================
+
+USERS
+------------------------------
+Total users   : 943
+Valid users   : 943
+Invalid users : 0
+
+MOVIES
+------------------------------
+Total movies   : 1682
+Valid movies   : 1682
+Invalid movies : 0
+
+INTERACTIONS
+------------------------------
+Total interactions   : 100000
+Valid interactions   : 100000
+Invalid interactions : 0
+
+VALIDATION RULES
+------------------------------
+1. Required columns checked
+2. Missing values checked
+3. Duplicate records checked
+4. User age checked
+5. Rating range 1-5 checked
+6. Timestamp validity checked
+7. User referential integrity checked
+8. Movie referential integrity checked

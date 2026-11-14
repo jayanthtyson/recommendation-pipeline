@@ -1,0 +1,29 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# Local MLflow data
+mlflow.db
+mlruns/
+
+# MovieLens source files
+data/raw/u.data
+data/raw/u.item
+data/raw/u.user
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

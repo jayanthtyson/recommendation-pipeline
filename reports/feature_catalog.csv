@@ -1,0 +1,8 @@
+entity,feature,description,source
+User,user_activity_count,Number of movie ratings made by the user,Training interactions
+User,user_average_rating,Average rating given by the user,Training interactions
+User,last_interaction,Most recent training interaction for the user,Training interactions
+Item,item_popularity,Number of training ratings received by the movie,Training interactions
+Item,item_average_rating,Average training rating received by the movie,Training interactions
+Interaction,rating_deviation,Rating minus the user's average rating,Training interactions
+Interaction,days_since_last_interaction,Days since the user's previous interaction,Training interactions

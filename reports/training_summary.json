@@ -1,0 +1,15 @@
+{
+    "popularity_model": {
+        "model_type": "Popularity baseline",
+        "movies_ranked": 1613,
+        "top_k": 5
+    },
+    "personalized_model": {
+        "model_type": "Truncated SVD",
+        "number_of_users": 943,
+        "number_of_movies": 1613,
+        "number_of_factors": 50,
+        "explained_variance_ratio": 0.5130707560971264,
+        "top_k": 5
+    }
+}
